@@ -61,12 +61,46 @@
             margin: 15px;
         }
 
-        main h2 {
+        main h2,
+        main h3 {
             display: block;
             text-align: center;
             font-size: 2em;
             font-weight: 300;
             line-height: 1.25em;
+        }
+
+        main h3 {
+            font-size: 1.8em;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        main code {
+            display: inline-block;
+            width: 60%;
+            overflow: auto;
+            padding: 1em;
+            line-height: 1.25em;
+            font-size: 1.5em;
+            color: rgba(255,255,255,0.6);
+            background-color: #111111;
+            text-align: left;
+        }
+
+        main p {
+            font-weight: 300;
+            font-size: 1.5em;
+            line-height: 1.8em;
+            text-align: center;
+            width: 80%;
+            margin: auto auto;
+        }
+
+        main code strong {
+            color: rgba(255,255,255,1);
         }
 
         .icon-list {
@@ -170,6 +204,54 @@
             <strong>iconimo-chevron-right</strong>
         </li>
     </ul>
+
+    <hr>
+
+    <h2>Getting Started</h2>
+
+    <h3>Install</h3>
+
+    <code><pre><strong>npm install iconimo</strong> --save</pre></code>
+
+    <h3>Run</h3>
+    <code><pre>import <strong>Iconimo</strong> from '<strong>iconimo</strong>';
+
+// Default Option
+const iconimo = <strong>new Iconimo()</strong>;
+
+// With Options
+const iconimo = <strong>new Iconimo(</strong>{
+    <strong>easing</strong> : '<strong>sin.in</strong>',
+    <strong>duration</strong> : <strong>300</strong>, // animation duration
+    <strong>strokeRatio</strong> : <strong>20</strong>, // element height / strokeRatio = strokeWidth
+    <strong>radiusRatio</strong> : <strong>3</strong>, // element with / radiusRatio = 50% of line width
+    <strong>strokeLinecap</strong> : '<strong>round</strong>', // 'round', 'edge', 'butt'
+    <strong>cssPrefix : '<strong>iconimo-</strong>', // prefix for iconimo-classes
+}<strong>)</strong>;</pre></code>
+
+    <hr>
+
+    <h2>Styling</h2>
+
+    <p>Iconimo-Icons are positioned absolute within a certain element. Make sure, you use position relative for your container.</p>
+    <p>To colorize an Icon you can simply use the 'color'-Property of the current element.</p>
+
+    <h3>Example</h3>
+
+    <code><pre>[class^='<strong>iconimo-</strong>'] {
+    display: <strong>inline-block</strong>;
+    width: 48px;
+    height: 48px;
+    position: <strong>relative</strong>;
+    color: <strong>#ff0000</strong>;
+}</pre></code>
+
+    <hr>
+
+    <h2>Contribution</h2>
+
+    <p>Any contribution is warmly welcome.</p>
+    <p>You find this project on <a href="https://github.com/wildhaber/iconimo/">Github</a>. It is distributed under the <strong>MIT License</strong>.</p>
 
     <hr>
 

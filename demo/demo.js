@@ -3,8 +3,6 @@ const iconimo = new Iconimo.default({
     strokeRatio: 15,
 });
 
-iconimo.activate();
-
 function random(from, to) {
     return Math.round(Math.random() * to) + from;
 }

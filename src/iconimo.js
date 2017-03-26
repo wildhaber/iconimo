@@ -15,6 +15,8 @@ class Iconimo {
             cssPrefix : 'iconimo-',
         }, config);
 
+        this.activate();
+
     }
 
     activate() {
