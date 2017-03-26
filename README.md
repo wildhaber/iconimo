@@ -1,8 +1,8 @@
 # iconimo
 
-[![iconimo poster](https://github.com/wildhaber/iconimo/blob/master/demo/iconimo.gif "iconimo")](http://iconimo.scripter.click)
+[![iconimo poster](https://github.com/wildhaber/iconimo/blob/master/demo/iconimo.gif "iconimo")](https://iconimo.scripter.click)
 
-### Demo: [iconimo.scripter.click](http://iconimo.scripter.click)
+### Demo: [iconimo.scripter.click](https://iconimo.scripter.click)
 
 ## Icons
 
